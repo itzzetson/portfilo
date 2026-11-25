@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/((?!resume\\.pdf|profile-photo\\.jpg|favicon\\.svg|assets/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
